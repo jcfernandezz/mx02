@@ -1,0 +1,24 @@
+Propósito. Esta aplicación agrega una ventana a las facturas pm y pop para marcarlas como deducibles y para agregar el folio fiscal.
+
+9/12/14 jcf Creación
+
+-------------------------------------------------------------------------
+
+Launch file: 		DYNAMICS.SET
+Launch ID: 		0
+Product Name: 		IETU
+Product Id: 		8482
+Forms dictionary: 	F8482.DIC
+Reps. dictionary: 	R8482.DIC
+Compatibility ID: 	IETU
+Compatibility message: 	IETU
+
+Chunk		: 	G11IETU1.CNK
+Dictionary	: 	D8482.DIC
+module		: 	51
+major v		: 	11
+min v		: 	0
+build		: 	0
+Total compression
+
+
