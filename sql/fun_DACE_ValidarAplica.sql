@@ -1,12 +1,6 @@
-USE [MEX10]
-GO
-
 /****** Object:  UserDefinedFunction [dbo].[fun_DACE_ValidarAplica]    Script Date: 11/28/2018 14:23:14 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[fun_DACE_ValidarAplica]') AND type in (N'FN', N'IF', N'TF', N'FS', N'FT'))
 DROP FUNCTION [dbo].[fun_DACE_ValidarAplica]
-GO
-
-USE [MEX10]
 GO
 
 /****** Object:  UserDefinedFunction [dbo].[fun_DACE_ValidarAplica]    Script Date: 11/28/2018 14:23:14 ******/
@@ -30,6 +24,7 @@ BEGIN
 END; 
 GO
 
-GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[fun_DACE_ValidarAplica]    TO [DYNGRP] 
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[fun_DACE_ValidarAplica]  TO [DYNGRP] 
 GO 
 
