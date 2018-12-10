@@ -30,3 +30,6 @@ BEGIN
 END; 
 GO
 
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[fun_DACE_ValidarAplica]    TO [DYNGRP] 
+GO 
+
