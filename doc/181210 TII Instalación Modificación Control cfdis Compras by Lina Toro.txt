@@ -1,0 +1,6 @@
+1.- Instalar objetos en sql:
+	1-fun_DACE_ValidarAplica
+	2-vw_dace_smartlist1
+
+2.- Copiar cnk en la carpeta de GP
+3.- Ejecutar GP cuando muestre el mensaje de incorporar nuevo codigo indicar que "SI".
